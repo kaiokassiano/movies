@@ -80,7 +80,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:gravity="fill_horizontal"
             android:text="Sinopse: This is the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life."
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:id="@+id/textView5"
             android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"

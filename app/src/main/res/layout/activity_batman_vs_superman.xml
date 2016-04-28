@@ -80,7 +80,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:gravity="fill_horizontal"
             android:text="Sinopse: Batman and Superman clash over differing philosophies about what kind of heroism is needed to protect the world, while the public they're defending is becoming increasingly mindful of the damage that superheroes and masked vigilantes cause. However, the duo are soon forced to confront an even greater threat created by nefarious billionaire Lex Luthor."
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:id="@+id/textView5"
             android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"

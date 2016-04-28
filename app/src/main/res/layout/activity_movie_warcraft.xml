@@ -79,7 +79,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:gravity="fill_horizontal"
             android:text="Sinopse: The peaceful realm of Azeroth stands on the brink of war as its civilization faces a fearsome race of invaders: orc warriors fleeing their dying home to colonize another. As a portal opens to connect the two worlds, one army faces destruction and the other faces extinction. From opposing sides, two heroes are set on a collision course that will decide the fate of their family, their people, and their home."
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:id="@+id/textView5"
             android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"
