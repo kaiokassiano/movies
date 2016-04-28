@@ -8,7 +8,7 @@ public class MovieBatmanVsSuperman extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.setTitle("Filme: Batman vs Superman - A Origem da Justiça");
+        super.setTitle("Filme: Batman vs Superman");
         setContentView(R.layout.activity_batman_vs_superman);
     }
 
