@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#333333</color>
     <color name="colorPrimaryDark">#111111</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#FFAB00</color>
     <color name="White">#FFFFFF</color>
     <color name="deadpool">#F00000</color>
     <color name="machina">#AA00FF</color>
