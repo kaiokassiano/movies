@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#111111</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="White">#FFFFFF</color>
+    <color name="deadpool">#F00000</color>
+    <color name="machina">#AA00FF</color>
+    <color name="superman">#0000FF</color>
+
+</resources>

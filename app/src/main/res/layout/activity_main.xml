@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.study_jams.kaio.movies.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/warcraft"
+                android:tag="warcraft"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:onClick="iniciaTelaInformacoesFilme"
+                android:src="@drawable/warcraft_poster"/>
+
+            <ImageButton
+                android:id="@+id/batman_vs_superman"
+                android:tag="batman_vs_superman"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:onClick="iniciaTelaInformacoesFilme"
+                android:src="@drawable/batman_vs_superman_poster"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/deadpool"
+                android:tag="deadpool"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:onClick="iniciaTelaInformacoesFilme"
+                android:src="@drawable/deadpool_poster"/>
+
+            <ImageButton
+                android:id="@+id/ex_machina"
+                android:tag="ex_machina"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:onClick="iniciaTelaInformacoesFilme"
+                android:src="@drawable/ex_machina_poster"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
