@@ -7,9 +7,10 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 
-public class MovieDeadpool extends AppCompatActivity {
+public class MovieWarcraftActivity extends AppCompatActivity {
 
     private String buttonTag;
     SharedPreferences prefs;
@@ -17,17 +18,14 @@ public class MovieDeadpool extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.setTitle("Filme: Deadpool");
-        setContentView(R.layout.activity_deadpool);
-
+        super.setTitle("Filme: Warcraft Movie");
+        setContentView(R.layout.activity_movie_warcraft);
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        Boolean ehFavorito = prefs.getBoolean("favoritoDeadpool", false);
+        Boolean ehFavorito = prefs.getBoolean("favoritoWarcraft", false);
 
-        CheckBox chkbox = (CheckBox) findViewById(R.id.favorito_deadpool_box);
+        CheckBox chkbox = (CheckBox) findViewById(R.id.favorito_warcraft_box);
         chkbox.setChecked(ehFavorito);
     }
-
-
 
     public void exibeTrailer(View view) {
 
@@ -35,9 +33,9 @@ public class MovieDeadpool extends AppCompatActivity {
         Intent videoIntent = null;
 
         if (buttonTag.equals("trailer_1")) {
-            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=Q9X-bAE8KTc"));
+            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=RhFMIRuHAL4"));
         } else if (buttonTag.equals("trailer_2")){
-            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=rW-44KuoAdA"));
+            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=-vwPitt1XMQ"));
         }
 
         startActivity(videoIntent);
@@ -45,10 +43,10 @@ public class MovieDeadpool extends AppCompatActivity {
 
     public void setFavorito (View view) {
 
-        Boolean ehFavorito = prefs.getBoolean("favoritoDeadpool", false);
+        Boolean ehFavorito = prefs.getBoolean("favoritoWarcraft", false);
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        prefs.edit().putBoolean("favoritoDeadpool", !ehFavorito).commit();
+        prefs.edit().putBoolean("favoritoWarcraft", !ehFavorito).commit();
     }
 
 }

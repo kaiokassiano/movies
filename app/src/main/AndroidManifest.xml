@@ -15,16 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MovieWarcraft"
+        <activity android:name=".MovieWarcraftActivity"
             android:parentActivityName="com.study_jams.kaio.movies.MainActivity">
         </activity>
-        <activity android:name=".MovieBatmanVsSuperman"
+        <activity android:name=".MovieBatmanVsSupermanActivity"
             android:parentActivityName="com.study_jams.kaio.movies.MainActivity">
         </activity>
-        <activity android:name=".MovieExMachina"
+        <activity android:name=".MovieExMachinaActivity"
             android:parentActivityName="com.study_jams.kaio.movies.MainActivity">
         </activity>
-        <activity android:name=".MovieDeadpool"
+        <activity android:name=".MovieDeadpoolActivity"
             android:parentActivityName="com.study_jams.kaio.movies.MainActivity">
         </activity>
         <activity android:name=".About"></activity>

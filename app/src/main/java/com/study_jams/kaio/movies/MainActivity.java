@@ -48,16 +48,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = null;
 
         if (movieTag.equals("warcraft")) {
-            intent = new Intent(this, MovieWarcraft.class);
+            intent = new Intent(this, MovieWarcraftActivity.class);
 
         } else if(movieTag.equals("batman_vs_superman")) {
-            intent = new Intent(this, MovieBatmanVsSuperman.class);
+            intent = new Intent(this, MovieBatmanVsSupermanActivity.class);
 
         } else if(movieTag.equals("deadpool")) {
-            intent = new Intent(this, MovieDeadpool.class);
+            intent = new Intent(this, MovieDeadpoolActivity.class);
 
         } else if(movieTag.equals("ex_machina")) {
-            intent = new Intent(this, MovieExMachina.class);
+            intent = new Intent(this, MovieExMachinaActivity.class);
 
         }
 

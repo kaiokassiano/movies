@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 
-public class MovieExMachina extends AppCompatActivity {
+public class MovieExMachinaActivity extends AppCompatActivity {
 
     private String buttonTag;
     SharedPreferences prefs;
