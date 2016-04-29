@@ -140,7 +140,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:tag="trailer_1"
+                    android:tag="trailer_2"
                     android:onClick="exibeTrailer"
                     android:text="Trailer 2"
                     android:textColor="@color/White"
