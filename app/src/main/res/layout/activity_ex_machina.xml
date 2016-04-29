@@ -118,7 +118,9 @@
                     android:tag="trailer_1"
                     android:text="Trailer 1"
                     android:onClick="exibeTrailer"
-                    android:id="@+id/botao_trailer_1" />
+                    android:id="@+id/botao_trailer_1"
+                    android:backgroundTint="@color/machina"
+                    android:textColor="@color/White"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -141,6 +143,8 @@
                     android:tag="trailer_1"
                     android:onClick="exibeTrailer"
                     android:text="Trailer 2"
+                    android:textColor="@color/White"
+                    android:backgroundTint="@color/machina"
                     android:id="@+id/botao_trailer_2" />
 
                 <TextView

@@ -7,5 +7,7 @@
     <color name="deadpool">#F00000</color>
     <color name="machina">#AA00FF</color>
     <color name="superman">#0000FF</color>
+    <color name="corBotao">#2196F3</color>
+    <color name="verdinho">#3E2723</color>
 
 </resources>
