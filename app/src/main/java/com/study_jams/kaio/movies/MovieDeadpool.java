@@ -35,9 +35,9 @@ public class MovieDeadpool extends AppCompatActivity {
         Intent videoIntent = null;
 
         if (buttonTag.equals("trailer_1")) {
-            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=RhFMIRuHAL4"));
+            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=Q9X-bAE8KTc"));
         } else if (buttonTag.equals("trailer_2")){
-            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=-vwPitt1XMQ"));
+            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=rW-44KuoAdA"));
         }
 
         startActivity(videoIntent);

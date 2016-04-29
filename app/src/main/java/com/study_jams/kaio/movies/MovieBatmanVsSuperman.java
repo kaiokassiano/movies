@@ -33,9 +33,9 @@ public class MovieBatmanVsSuperman extends AppCompatActivity {
         Intent videoIntent = null;
 
         if (buttonTag.equals("trailer_1")) {
-            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=RhFMIRuHAL4"));
+            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=0WWzgGyAH6Y"));
         } else if (buttonTag.equals("trailer_2")){
-            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=-vwPitt1XMQ"));
+            videoIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.youtube.com/watch?v=yViIi3gie2c"));
         }
 
         startActivity(videoIntent);

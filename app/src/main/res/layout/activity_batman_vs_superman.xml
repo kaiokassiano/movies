@@ -132,7 +132,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Data do trailer:"
+                    android:text="Data do trailer: 11 jul 2015"
                     android:textSize="20dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginLeft="5dp"/>
@@ -155,7 +155,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Data do trailer:"
+                    android:text="Data do trailer: 2 dez 2015"
                     android:textSize="20dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginLeft="5dp"/>
