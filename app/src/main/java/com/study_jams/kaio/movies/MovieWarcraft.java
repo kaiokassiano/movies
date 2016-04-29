@@ -13,7 +13,6 @@ import android.widget.CheckBox;
 public class MovieWarcraft extends AppCompatActivity {
 
     private String buttonTag;
-    private boolean favorito;
     SharedPreferences prefs;
 
     @Override
