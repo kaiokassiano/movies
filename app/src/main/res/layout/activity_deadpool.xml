@@ -116,8 +116,10 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:tag="trailer_1"
                     android:text="Trailer 1"
-                    android:id="@+id/button" />
+                    android:onClick="exibeTrailer"
+                    android:id="@+id/botao_trailer_1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -137,8 +139,10 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:tag="trailer_2"
                     android:text="Trailer 2"
-                    android:id="@+id/button2" />
+                    android:onClick="exibeTrailer"
+                    android:id="@+id/botao_trailer_2" />
 
                 <TextView
                     android:layout_width="wrap_content"
