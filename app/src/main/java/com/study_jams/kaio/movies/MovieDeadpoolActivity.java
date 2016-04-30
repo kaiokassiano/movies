@@ -17,7 +17,7 @@ public class MovieDeadpoolActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.setTitle("Filme: Deadpool");
+        super.setTitle("MovieDetail: Deadpool");
         setContentView(R.layout.activity_deadpool);
 
         prefs = PreferenceManager.getDefaultSharedPreferences(this);

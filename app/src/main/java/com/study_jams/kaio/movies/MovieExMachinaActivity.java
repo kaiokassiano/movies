@@ -17,7 +17,7 @@ public class MovieExMachinaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.setTitle("Filme: Ex Machina");
+        super.setTitle("MovieDetail: Ex Machina");
         setContentView(R.layout.activity_ex_machina);
 
         prefs = PreferenceManager.getDefaultSharedPreferences(this);

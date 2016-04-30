@@ -18,7 +18,7 @@ public class MovieWarcraftActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.setTitle("Filme: Warcraft Movie");
+        super.setTitle("MovieDetail: Warcraft Movie");
         setContentView(R.layout.activity_movie_warcraft);
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
         Boolean ehFavorito = prefs.getBoolean("favoritoWarcraft", false);

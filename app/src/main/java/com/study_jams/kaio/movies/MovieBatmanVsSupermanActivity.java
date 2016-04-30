@@ -17,7 +17,7 @@ public class MovieBatmanVsSupermanActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.setTitle("Filme: Batman vs Superman");
+        super.setTitle("MovieDetail: Batman vs Superman");
         setContentView(R.layout.activity_batman_vs_superman);
 
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
