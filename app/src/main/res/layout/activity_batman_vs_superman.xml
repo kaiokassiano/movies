@@ -82,7 +82,7 @@
             android:layout_below="@+id/textView4"
             android:onClick="setFavorito"
             android:textSize="16dp"
-            android:text="Favorito"
+            android:text="@string/favorito"
             style="?android:attr/starStyle"/>
 
         <TextView

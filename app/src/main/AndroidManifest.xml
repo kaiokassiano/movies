@@ -27,7 +27,6 @@
         <activity android:name=".MovieDeadpoolActivity"
             android:parentActivityName="com.study_jams.kaio.movies.MainActivity">
         </activity>
-        <activity android:name=".About"></activity>
     </application>
 
 </manifest>

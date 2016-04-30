@@ -2,4 +2,5 @@
     <string name="app_name">Movies</string>
     <string name="sobre">Sobre</string>
     <string name="title_activity_movie_details">MovieDetails</string>
+    <string name="favorito">Marcar como Favorito</string>
 </resources>
